@@ -186,11 +186,11 @@ export default function EnchantingDateProposalApp() {
       </h2>
       <div className="grid grid-cols-2 gap-6 mb-6">
         {[
-          { name: "Lasagna", icon: <Utensils /> },
-          { name: "Chicken Pie", icon: <Utensils /> },
+          { name: "Shots", icon: <Utensils /> },
+          { name: "Panipuri", icon: <Utensils /> },
           { name: "Chicken Shawarma", icon: <Utensils /> },
-          { name: "Snack Platter", icon: <Coffee /> },
-          { name: "Mix rice", icon: <Utensils /> },
+          { name: "Corner House", icon: <Coffee /> },
+          { name: "Asian", icon: <Utensils /> },
         ].map(({ name, icon }) => (
           <motion.button
             key={name}
@@ -229,14 +229,14 @@ export default function EnchantingDateProposalApp() {
       </h2>
       <div className="grid grid-cols-2 gap-6 mb-6">
         {[
-          "The Notebook",
+          "Tere Ishq Mein",
           "La La Land",
-          "Titanic",
-          "Pride and Prejudice",
-          "Anyone But You",
-          "Past Lives",
-          "Love at First Sight",
-          "Through My Window 3",
+          "De De Pyaar De 2",
+          "HAQ",
+          "Dilwale Dulhania Le Jayenge",
+          "Love Untangled",
+          "Taxi Driver",
+          "Mission Cross",
           "Something else",
         ].map((movie) => (
           <motion.button
