@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "For Riddhi",
+  title: "For Your One",
   description: "maybe to show we could work out",
 };
 
