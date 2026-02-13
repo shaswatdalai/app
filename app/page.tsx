@@ -186,9 +186,9 @@ export default function EnchantingDateProposalApp() {
       </h2>
       <div className="grid grid-cols-2 gap-6 mb-6">
         {[
-          { name: "Shots", icon: <Utensils /> },
-          { name: "Panipuri", icon: <Utensils /> },
-          { name: "Chicken Shawarma", icon: <Utensils /> },
+          { name: "Pasta", icon: <Utensils /> },
+          { name: "Wine", icon: <Utensils /> },
+          { name: "Pizza", icon: <Utensils /> },
           { name: "Corner House", icon: <Coffee /> },
           { name: "Asian", icon: <Utensils /> },
         ].map(({ name, icon }) => (
